@@ -1,0 +1,48 @@
+
+.md-header{
+    background-color: black;
+}
+
+.md-header__button.md-logo{
+    background-color: white;
+}
+
+/* Sidebar borders/colors */
+.md-nav__title{
+    background-color: #ffcd00 !important;
+    color: black;
+    text-align: center;
+    margin-left: .5vw;
+    margin-right: .5vw;
+    margin-top: .75vh;
+    border-radius: 5px;
+}
+
+.md-sidebar__inner{
+    border: 1px black solid;
+    padding: 0 !important;
+}
+
+/* Main content */
+.md-content{
+    border: 1px black solid;
+}
+
+
+/* .md-nav--secondary{
+    box-shadow: none;
+    background-image: none;
+    border-radius: 0;
+}
+
+.md-nav{
+    box-shadow: none;
+    background-image: none;
+    border-radius: 0;
+}
+
+.md-sidebar__scrollwrap{
+    box-shadow: none;
+    background-image: none;
+    border-radius: 0;
+} */
