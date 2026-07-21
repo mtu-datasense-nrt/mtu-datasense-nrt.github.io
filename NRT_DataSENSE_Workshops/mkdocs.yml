@@ -1,0 +1,4 @@
+site_name: NRT DataSENSE at Michigan Tech Workshops
+nav:
+  - Home: index.md
+theme: readthedocs
