@@ -1,4 +1,24 @@
+#NRT DataSENSE workshop resource page 
+#Author: Tony Garnett
+
 site_name: NRT DataSENSE at Michigan Tech Workshops
+
+# Navbar
 nav:
   - Home: index.md
-theme: readthedocs
+
+# Use mkdoc material for  custom theme with external CSS for custom color/border/logos
+theme:
+  name: material
+  palette:
+    -scheme: default
+    -primary: custom
+    -palette: custom
+  logo: /assets/logo.PNG
+  favicon: /assets/HuskyIcon_TwoColor.PNG
+extra_css:
+  - stylesheets/techTheme.css
+
+# Extensions for usability
+markdown_extensions:
+  - attr_list
