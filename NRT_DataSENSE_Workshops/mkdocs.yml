@@ -16,9 +16,11 @@ theme:
     -palette: custom
   logo: /assets/logo.PNG
   favicon: /assets/HuskyIcon_TwoColor.PNG
+
 extra_css:
   - stylesheets/techTheme.css
 
 # Extensions for usability
 markdown_extensions:
   - attr_list
+  - md_in_html
