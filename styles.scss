@@ -1,0 +1,28 @@
+/*-- scss:defaults --*/
+$primary: #FFCD00;
+$secondary: #000000;
+
+/*-- scss:rules --*/
+.navbar {
+  background-color: $primary;
+  color: $secondary; 
+}
+
+.navbar-title{
+  color: $secondary;
+}
+
+.menu-text{
+  color: $secondary;
+}
+
+.aa-SubmitIcon,
+#quarto-search .aa-SubmitIcon,
+.navbar .aa-SubmitIcon {
+  color: $secondary;
+  fill: $secondary;
+}
+
+.search-item, .search-result-text, .search-result-title-container{
+  color: $secondary !important;
+}
