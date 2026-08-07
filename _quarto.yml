@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "NRT DataSENSE at Michigan Technological University"
+  navbar:
+    collapse: false
+
+format:
+  html:
+    axe: true
+    theme:
+      - Journal
+      - styles.scss
+    css: styles.scss
+    toc: true
+
+
+
