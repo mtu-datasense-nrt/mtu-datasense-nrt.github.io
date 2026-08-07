@@ -31,6 +31,6 @@ a {
   color: #286CC7
 }
 
-a.hover{
-  color: #225DAB
+.sidebar nav[role=doc-toc] ul>li>a.active, .sidebar nav[role=doc-toc] ul>li>ul>li>a.active {
+  color: #286CC7 !important;
 }
